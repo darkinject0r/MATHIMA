@@ -12,7 +12,9 @@
      print $num1 + $num2;
 
    ?>
+      <form action=“calculat.php” method=“POST” >
 
-<form action=“calculat.php” method=“POST” >
+
+</form>
 </body>
 </html>

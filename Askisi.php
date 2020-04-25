@@ -13,6 +13,6 @@
 
    ?>
 
-<form action=
+<form action=“calculat.php” method=“POST” >
 </body>
 </html>

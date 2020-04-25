@@ -15,6 +15,6 @@
       <form action=“calculat.php” method=“POST” >
 
 
-</form>
+      </form>
 </body>
 </html>

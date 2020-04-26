@@ -2,9 +2,9 @@
 <head><title>Askisi Password</title>
 </head>
   
- <?php
+<body>
+<form action=“Praksi.php” method =“POST”>
 
 
- 
- ?>
+</body>
 </html>

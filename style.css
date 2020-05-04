@@ -1,9 +1,13 @@
 body {
 		 background-color: cyan;
+		 text-align: center;
 }
-
-table,td,tr{
-	border:1px solid red;
+table {
+	position: relative;
+	left: 40%;
+}
+td,tr{
+		border:1px solid red;
 }
 img {
  height: 200px;

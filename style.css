@@ -5,3 +5,7 @@ body {
 table,td,tr{
 	border:1px solid red;
 }
+img {
+ height: 200px;
+ width:  200px;
+}

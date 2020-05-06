@@ -1,0 +1,25 @@
+#div1 {
+	
+	background-image: url("myBG.jpg");
+	height:20%;
+	width:100%;
+	position:relative;
+	
+}
+
+#LeftMenu {
+	background-color: grey;
+	position:relative;
+	height:80%;
+	width:10%;
+}
+
+
+#content {
+	background-color: blue;
+	position:relative;
+	height:80%;
+	width:80%;
+	left:10%;
+	top:-78.7%;
+}

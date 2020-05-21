@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>My calculator </title>
+	<link rel="stylesheet" href = "CalcStyle.css">
+</head>
+
+<script>
+	function Inputs() {
+		var num1,num2;
+		num1 = document.getElementById("number1").value;
+		num2 = document.getElementById("number2").value;
+		window.alert("Input1:"+ num1 + " Input2 :" + num2);
+		
+	}
+</script>
+
+
+<body>
+		Number1 : <input type="text" id="number1"> </input>
+		<br><br>
+		Number2 : <input type="text" id="number2"> </input>
+		<br><br>
+		<button type="button" onmousedown="Inputs()" > Calculate </button>
+		
+</body>
+
+</html>

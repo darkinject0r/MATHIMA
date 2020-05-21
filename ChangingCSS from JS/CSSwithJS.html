@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>My calculator </title>
+	<link rel="stylesheet" href = "style.css">
+</head>
+
+<script>
+	function BgChangeYellow() {
+		document.body.style.backgroundColor = "yellow";
+	}
+	function BgChangeGreen() {
+		document.body.style.backgroundColor = "green";
+	}
+	function bgReset() {
+		document.body.style.backgroundColor = "white";
+	}
+	function changeTxtColor() {
+		document.getElementById("aText").style.color = "red";
+	}
+</script>
+
+
+<body>
+	<button type="button" onmousedown="BgChangeYellow()" onmouseup="bgReset()"> Press me to change the background to yellow </button>
+	<button type="button" onmousedown="BgChangeGreen()"> Press me to change the background to green </button>
+	
+	<div id ="aText"> This is a text </div>
+	<br>
+	<button type="button" onmousedown="changeTxtColor()"> Change Color of text! </button>
+</body>
+
+</html>

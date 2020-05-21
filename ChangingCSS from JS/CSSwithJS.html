@@ -17,13 +17,16 @@
 	function changeTxtColor() {
 		document.getElementById("aText").style.color = "red";
 	}
+	function BgChangeBlack() {
+		document.body.style.backgroundColor="black";
+	}
 </script>
 
 
 <body>
 	<button type="button" onmousedown="BgChangeYellow()" onmouseup="bgReset()"> Press me to change the background to yellow </button>
 	<button type="button" onmousedown="BgChangeGreen()"> Press me to change the background to green </button>
-	<button type="button" onmouse="BgChangeBlack()">Over me to change to black.</button>
+	<button type="button" onmouseover="BgChangeBlack()" onmousemove="bgReset()">Over me to change to black.</button>
 	<div id ="aText"> This is a text </div>
 	<br>
 	<button type="button" onmousedown="changeTxtColor()"> Change Color of text! </button>

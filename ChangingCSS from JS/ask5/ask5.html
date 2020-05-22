@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title> Ask5 </title>
+</head>
+<script>
+	function paintYellow1() {
+		document.getElementById("input1").style.backgroundColor = "yellow";
+	}
+	function PaintWhite1() {
+		if (document.getElementById("input1").value == "")
+			document.getElementById("input1").style.backgroundColor = "red";
+		else
+			document.getElementById("input1").style.backgroundColor = "white";
+	}
+	function paintYellow2() {
+		document.getElementById("input2").style.backgroundColor = "yellow";
+	}
+	function PaintWhite2() {
+		if (document.getElementById("input2").value == "")
+			document.getElementById("input2").style.backgroundColor = "red";
+		else
+			document.getElementById("input2").style.backgroundColor = "white";
+	}
+	function paintYellow3() {
+		document.getElementById("input3").style.backgroundColor = "yellow";
+	}
+	function PaintWhite3() {
+		if (document.getElementById("input3").value == "")
+			document.getElementById("input3").style.backgroundColor = "red";
+		else
+			document.getElementById("input3").style.backgroundColor = "white";
+	}
+	function paintYellow4() {
+		document.getElementById("input4").style.backgroundColor = "yellow";
+	}
+	function PaintWhite4() {
+		if (document.getElementById("input4").value == "")
+			document.getElementById("input4").style.backgroundColor = "red";
+		else
+			document.getElementById("input4").style.backgroundColor = "white";
+	}
+</script>
+
+<body>
+		<input id="input1" onfocus = "paintYellow1()" onblur = "PaintWhite1()" > </input>
+		<br><br>
+		<input id="input2" onfocus = "paintYellow2()" onblur = "PaintWhite2()"> </input>
+		<br><br>
+		<input id="input3" onfocus = "paintYellow3()" onblur = "PaintWhite3()"> </input>
+		<br><br>
+		<input id="input4" onfocus = "paintYellow4()" onblur = "PaintWhite4()"> </input>
+</body>
+
+
+</html>

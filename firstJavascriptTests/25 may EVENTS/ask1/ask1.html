@@ -1,0 +1,25 @@
+<html>
+
+<head>
+	<title> ask1 </title>
+</head>
+
+<script>
+	function eventCatch(event) {
+		document.getElementById("in1").value = event.target.tagName;
+		document.getElementById("txt1").value = event.target.innerHTML;
+	}
+</script>
+
+<body onmouseover = "eventCatch(event)">
+	<input id = "in1"> </input>
+	<br><br>
+	<textarea id = "txt1"> </textarea>
+	<h1> This is header 1 </h1>
+	<h2> This is header 2 </h2>
+	<h3> header 3 </h3>
+	<a href=""> This is a link </a>
+	<p> I am a paragraph</p>
+	
+</body>
+</html>

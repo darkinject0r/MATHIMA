@@ -1,0 +1,35 @@
+<html>
+
+<head>
+	<title> ask3 </title>
+</head>
+
+
+
+<body>
+		<ul onmousedown = "myfunc(event)" id = "myul">
+			<li> toyota </li>
+			<li> volvo </li>
+			<li> mercedes </li>
+			<li> opel </li>
+			<li> Honda </li>
+			<li> Audi </li>
+		</ul>
+		<button type = "button" onmousedown = "removeHandler()">Click me ! </button>
+</body>
+
+<script>
+	var clicks = 3;
+	document.getElementById("myul").addEventListener("onmousedown",myfunc);
+	function myfunc(event) {
+		event.target.innerHTML = "You clicked me !";
+		
+	}
+	
+	function removeHandler() {
+			document.getElementById("myul").removeEventListener("onmousedown",myfunc);
+			window.alert("event removed !");
+	}
+	
+</script>
+</html>

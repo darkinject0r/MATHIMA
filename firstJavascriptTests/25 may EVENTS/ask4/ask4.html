@@ -1,0 +1,25 @@
+<html>
+<head>
+	<style>
+		.customColors {
+			color:red;
+		}
+	</style>
+</head>
+
+<script>
+	function myfunc() {
+		document.getElementById("link1").setAttribute("class","customColors");
+		document.getElementById("link2").setAttribute("class","customColors");
+		document.getElementById("link3").setAttribute("class","customColors");
+	}
+
+</script>
+
+<body>
+	<a href = "" id = "link1"> Link 1 </a><br>
+	<a href = "" id = "link2"> Link 2 </a><br>
+	<a href = "" id = "link3"> Link 3 </a><br>
+	<button type = "button" onmousedown = "myfunc()">Click me ! </button>
+</body>
+</html>
